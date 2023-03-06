@@ -1,1 +1,50 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(1, 129, 40);
+}
+header {
+  background-color: rgb(199, 197, 197);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+span {
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+ul {
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-areas: "l sl sp p";
+  column-gap: 1%;
+}
+li {
+  background-color: rgb(199, 197, 197);
+}
+.l {
+  grid-area: l;
+}
+.sl {
+  grid-area: sl;
+}
+.sp {
+  grid-area: sp;
+}
+.p {
+  grid-area: p;
+}
+footer {
+  background-color: rgb(199, 197, 197);
+}
+a {
+  font-size: 300%;
+  color: rgb(1, 129, 40);
+}
 
