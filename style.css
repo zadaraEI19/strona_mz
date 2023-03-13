@@ -1,32 +1,68 @@
 * {
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
+  font-family: cursive;
 }
 body {
   width: 80%;
   text-align: center;
   margin: auto;
-  background-color: rgb(1, 129, 40);
+  background-color: rgb(0, 83, 69);
 }
 header {
-  background-color: rgb(199, 197, 197);
+  background-color: rgb(181, 189, 184);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 1em;
+  border: 1px solid black;
+  border-radius: 9px;
+  box-shadow: 3px 3px 3px black;
+}
+main {
+  height: 100px;
+  background-color: rgb(181, 189, 184);
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px black;
 }
 span {
   text-align: center;
   margin: auto;
   display: flex;
 }
+
 ul {
   display: grid;
-  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-columns: 18% 28% 28% 18%;
   grid-template-areas: "l sl sp p";
   column-gap: 1%;
 }
 li {
-  background-color: rgb(199, 197, 197);
+  background-color: rgb(181, 189, 184);
+  border: 1px solid black;
+  border-radius: 6px;
+  display: inline-block;
+  box-shadow: 3px 3px 3px black;
+}
+footer {
+  margin-top: 1em;
+  background-color: rgb(181, 189, 184);
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px black;
+}
+a {
+  width: 100%;
+  font-size: 240%;
+  color: rgb(0, 83, 69);
+  display: block;
+}
+a:hover {
+  background-color: rgb(0, 83, 69);
+  color: rgb(181, 189, 184);
+  transition: 0.3s;
 }
 .l {
   grid-area: l;
@@ -40,11 +76,3 @@ li {
 .p {
   grid-area: p;
 }
-footer {
-  background-color: rgb(199, 197, 197);
-}
-a {
-  font-size: 300%;
-  color: rgb(1, 129, 40);
-}
-
