@@ -1,28 +1,26 @@
 * {
-  list-style: none;
-  text-decoration: none;
   box-sizing: border-box;
-  font-family: cursive;
+  font-family: monospace;
+  text-shadow: 0.4px 0.4px black;
+}
+section {
+  width:80%;
+  margin: auto;
 }
 body {
-  width: 80%;
   text-align: center;
   margin: auto;
-  background-color: rgb(0, 83, 69);
+  background-color: #192837;
 }
 header {
-  background-color: rgb(181, 189, 184);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 1em;
+  background-color: rgb(189, 198, 222);
   border: 1px solid black;
-  border-radius: 9px;
   box-shadow: 3px 3px 3px black;
+  text-align: center;
 }
 main {
-  height: 100px;
-  background-color: rgb(181, 189, 184);
+  color:#192837;
+  background-color: rgb(189, 198, 222);
   border: 1px solid black;
   border-radius: 6px;
   box-shadow: 3px 3px 3px black;
@@ -32,37 +30,45 @@ span {
   margin: auto;
   display: flex;
 }
-
-ul {
+aside ul {
   display: grid;
   grid-template-columns: 18% 28% 28% 18%;
   grid-template-areas: "l sl sp p";
   column-gap: 1%;
 }
-li {
-  background-color: rgb(181, 189, 184);
+aside li {
+  background-color: rgb(189, 198, 222);
   border: 1px solid black;
   border-radius: 6px;
   display: inline-block;
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 1px 1px 1px black;
 }
 footer {
-  margin-top: 1em;
-  background-color: rgb(181, 189, 184);
+  color:#192837;
+  width:100%;
+  margin-top: 0.9em;
+  background-color: rgb(189, 198, 222);
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px black;
+  font-size: 1.8em;
+  position: absolute;
+  bottom: 0;
+}
+aside a {
+  width: 100%;
+  font-size: 3.2vw;
+  color: #0040ff;
+  display: block;
   border: 1px solid black;
   border-radius: 6px;
-  box-shadow: 3px 3px 3px black;
-}
-a {
-  width: 100%;
-  font-size: 240%;
-  color: rgb(0, 83, 69);
-  display: block;
+  list-style: none;
+  text-decoration: none;
 }
 a:hover {
-  background-color: rgb(0, 83, 69);
-  color: rgb(181, 189, 184);
+  background-color: #9d01e5;
+  color: #0040ff;
   transition: 0.3s;
+  box-shadow: 5px 5px 5px black;
 }
 .l {
   grid-area: l;
@@ -75,4 +81,17 @@ a:hover {
 }
 .p {
   grid-area: p;
+}
+.logo {
+  width:20%;
+}
+main {
+  
+  text-align: left;
+  padding-left:0.8em;
+  line-height: 1em;
+  font-size: 2em;
+}
+main h3 {
+  text-align: center;
 }
