@@ -1,35 +1,26 @@
+/* Strona */
 * {
   box-sizing: border-box;
   font-family: monospace;
   text-shadow: 0.4px 0.4px black;
+  list-style: none;
+  text-decoration: none;
 }
 section {
   width:80%;
   margin: auto;
 }
 body {
-  text-align: center;
-  margin: auto;
-  background-color: #192837;
+  background-color: #1f272e;
 }
+/* Nagłówek */
 header {
   background-color: rgb(189, 198, 222);
-  border: 1px solid black;
   box-shadow: 3px 3px 3px black;
   text-align: center;
+  background-image: url("imgs/tlo.png");
 }
-main {
-  color:#192837;
-  background-color: rgb(189, 198, 222);
-  border: 1px solid black;
-  border-radius: 6px;
-  box-shadow: 3px 3px 3px black;
-}
-span {
-  text-align: center;
-  margin: auto;
-  display: flex;
-}
+/* Aside/Nawigacja */
 aside ul {
   display: grid;
   grid-template-columns: 18% 28% 28% 18%;
@@ -37,22 +28,12 @@ aside ul {
   column-gap: 1%;
 }
 aside li {
+  text-align: center;
   background-color: rgb(189, 198, 222);
   border: 1px solid black;
   border-radius: 6px;
   display: inline-block;
   box-shadow: 1px 1px 1px black;
-}
-footer {
-  color:#192837;
-  width:100%;
-  margin-top: 0.9em;
-  background-color: rgb(189, 198, 222);
-  border: 1px solid black;
-  box-shadow: 3px 3px 3px black;
-  font-size: 1.8em;
-  position: absolute;
-  bottom: 0;
 }
 aside a {
   width: 100%;
@@ -61,12 +42,10 @@ aside a {
   display: block;
   border: 1px solid black;
   border-radius: 6px;
-  list-style: none;
-  text-decoration: none;
+  background-image: url("imgs/tlo.png");
+  background-size: 100%;
 }
 a:hover {
-  background-color: #9d01e5;
-  color: #0040ff;
   transition: 0.3s;
   box-shadow: 5px 5px 5px black;
 }
@@ -85,13 +64,57 @@ a:hover {
 .logo {
   width:20%;
 }
+/* Main wygląd */
 main {
-  
-  text-align: left;
-  padding-left:0.8em;
+  text-align: center;
+  color:#192837;
+  background-color: rgb(189, 198, 222);
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px black;
+}
+/* Main zawartość */
+main {
   line-height: 1em;
   font-size: 2em;
+  background-image: url("imgs/tlo.png");
+  background-size: 100%;
 }
 main h3 {
   text-align: center;
 }
+img {
+  vertical-align:-0.067em;
+}
+span {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.kod {
+  border:2px solid purple;
+  margin:auto;
+}
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+/*
+footer {
+  color:#192837;
+  width:100%;
+  margin-top: 0.9em;
+  background-color: rgb(189, 198, 222);
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px black;
+  font-size: 1.8em;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+
