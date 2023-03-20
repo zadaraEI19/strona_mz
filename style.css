@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
   font-family: monospace;
-  text-shadow: 0.4px 0.4px black;
+  
   list-style: none;
   text-decoration: none;
 }
@@ -22,26 +22,20 @@ header {
 }
 /* Aside/Nawigacja */
 aside ul {
+  padding:0;
   display: grid;
-  grid-template-columns: 18% 28% 28% 18%;
+  grid-template-columns: 19.5% 29% 29% 19.5%;
   grid-template-areas: "l sl sp p";
   column-gap: 1%;
 }
 aside li {
   text-align: center;
-  background-color: rgb(189, 198, 222);
-  border: 1px solid black;
-  border-radius: 6px;
-  display: inline-block;
-  box-shadow: 1px 1px 1px black;
 }
 aside a {
-  width: 100%;
   font-size: 3.2vw;
-  color: #0040ff;
+  color:#192837;
   display: block;
   border: 1px solid black;
-  border-radius: 6px;
   background-image: url("imgs/tlo.png");
   background-size: 100%;
 }
@@ -70,7 +64,6 @@ main {
   color:#192837;
   background-color: rgb(189, 198, 222);
   border: 1px solid black;
-  border-radius: 6px;
   box-shadow: 3px 3px 3px black;
 }
 /* Main zawartość */
@@ -86,10 +79,14 @@ main h3 {
 img {
   vertical-align:-0.067em;
 }
-span {
+.kodd {
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+div span {
+  flex-basis: 50%;
+  text-align: center;
 }
 .kod {
   border:2px solid purple;
@@ -98,8 +95,7 @@ span {
 main div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: center;
+  justify-content:space-around;
 }
 /*
 footer {
@@ -113,8 +109,3 @@ footer {
   position: absolute;
   bottom: 0;
 }
-
-
-
-
-
