@@ -39,8 +39,9 @@ aside a {
   background-size: 100%;
 }
 a:hover {
-  transition: 0.3s;
+  transition: 0.15s;
   box-shadow: 5px 5px 5px black;
+  transform: scale(1.1);
 }
 .l {
   grid-area: l;
@@ -73,11 +74,14 @@ main {
   background-size: 100%;
   padding:0.5em;
 }
+main a { 
+width: 70%;
+margin: auto;
+margin-top: 0.3em;
+background-color: rgba(0, 0, 0, 0.3);
+}
 main h3 {
   text-align: center;
-}
-img {
-  vertical-align:-0.067em;
 }
 .kodd {
   text-align: center;
@@ -91,6 +95,9 @@ div span {
 .kod {
   border:2px solid purple;
   margin:auto;
+}.kod:hover {
+  transition: 0.1s;
+  transform: scale(1.6)
 }
 main div {
   display: flex;
