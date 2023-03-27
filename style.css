@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
   font-family: monospace;
-  
   list-style: none;
   text-decoration: none;
 }
@@ -11,7 +10,7 @@ section {
   margin: auto;
 }
 body {
-  background-color: #1f272e;
+  background-color: #09243b;
 }
 /* Nagłówek */
 header {
@@ -72,6 +71,7 @@ main {
   font-size: 2em;
   background-image: url("imgs/tlo.png");
   background-size: 100%;
+  padding:0.5em;
 }
 main h3 {
   text-align: center;
