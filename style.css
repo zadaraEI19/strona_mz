@@ -74,7 +74,8 @@ main {
   background-size: 100%;
   padding:0.5em;
 }
-main a { 
+main a {
+color:#192837; 
 width: 70%;
 margin: auto;
 margin-top: 0.3em;
@@ -96,23 +97,30 @@ div span {
   border:2px solid purple;
   margin:auto;
 }.kod:hover {
-  transition: 0.1s;
-  transform: scale(1.6)
+  transition: 0.2s;
+  transform: scale(1.4);
 }
-main div {
+.glowny div {
   display: flex;
   flex-wrap: wrap;
   justify-content:space-around;
 }
-/*
+.quiz div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.swift {
+  margin-bottom:2em;
+}
 footer {
-  color:#192837;
-  width:100%;
+  color:#babcbd;
   margin-top: 0.9em;
-  background-color: rgb(189, 198, 222);
   border: 1px solid black;
-  box-shadow: 3px 3px 3px black;
-  font-size: 1.8em;
-  position: absolute;
-  bottom: 0;
+  text-align: center;
 }
