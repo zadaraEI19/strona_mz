@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 section {
-  width:80%;
+  width: 80%;
   margin: auto;
 }
 body {
@@ -21,7 +21,7 @@ header {
 }
 /* Aside/Nawigacja */
 aside ul {
-  padding:0;
+  padding: 0;
   display: grid;
   grid-template-columns: 19.5% 29% 29% 19.5%;
   grid-template-areas: "l sl sp p";
@@ -32,7 +32,7 @@ aside li {
 }
 aside a {
   font-size: 3.2vw;
-  color:#192837;
+  color: #192837;
   display: block;
   border: 1px solid black;
   background-image: url("imgs/tlo.png");
@@ -40,7 +40,7 @@ aside a {
 }
 a:hover {
   transition: 0.15s;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 3px 3px 3px black;
   transform: scale(1.1);
 }
 .l {
@@ -56,15 +56,15 @@ a:hover {
   grid-area: p;
 }
 .logo {
-  width:20%;
+  width: 20%;
 }
 /* Main wygląd */
 main {
   text-align: center;
-  color:#192837;
+  color: #192837;
   background-color: rgb(189, 198, 222);
   border: 1px solid black;
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 2px 2px 2px black;
 }
 /* Main zawartość */
 main {
@@ -72,14 +72,14 @@ main {
   font-size: 2em;
   background-image: url("imgs/tlo.png");
   background-size: 100%;
-  padding:0.5em;
+  padding: 0.5em;
 }
 main a {
-color:#192837; 
-width: 70%;
-margin: auto;
-margin-top: 0.3em;
-background-color: rgba(0, 0, 0, 0.3);
+  color: #192837;
+  width: 70%;
+  margin: auto;
+  margin-top: 0.3em;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 main h3 {
   text-align: center;
@@ -94,18 +94,15 @@ div span {
   text-align: center;
 }
 .kod {
-  border:2px solid purple;
-  margin:auto;
-}.kod:hover {
+  border: 2px solid purple;
+  margin: auto;
+}
+.kod:hover {
   transition: 0.2s;
   transform: scale(1.4);
+  box-shadow: 3px 3px 3px black;
 }
-.glowny div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-around;
-}
-.quiz div {
+main div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -116,10 +113,10 @@ form {
   flex-direction: column;
 }
 .swift {
-  margin-bottom:2em;
+  margin-bottom: 2em;
 }
 footer {
-  color:#babcbd;
+  color: #babcbd;
   margin-top: 0.9em;
   border: 1px solid black;
   text-align: center;
