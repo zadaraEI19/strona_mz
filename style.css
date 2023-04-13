@@ -44,13 +44,13 @@ a:hover {
   transform: scale(1.1);
 }
 .l {
-  grid-area: l;
+  grid-area: sp;
 }
 .sl {
   grid-area: sl;
 }
 .sp {
-  grid-area: sp;
+  grid-area: l;
 }
 .p {
   grid-area: p;
@@ -81,8 +81,27 @@ main a {
   margin-top: 0.3em;
   background-color: rgba(0, 0, 0, 0.3);
 }
+.quiz {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.quiz a {
+  width:100%;
+}
 main h3 {
   text-align: center;
+}
+.kontakt {
+  display:flex;
+  width:100%;
+}
+.kontakt main {
+  flex-basis: 60%;
+}
+.kontakt aside {
+  flex-basis:20%;
+  text-align: center;
+
 }
 .kodd {
   text-align: center;
